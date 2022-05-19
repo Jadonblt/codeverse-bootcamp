@@ -22,11 +22,25 @@
 #     i = i + 1
 # print("Done!")
 
-i = 0
-while i < 3:
-    j = 0
-    while j < 3:
-        print(i + j)
-        j = j + 1
-    i = i + 1
-print('Done!')
+# i = 0
+# while i < 3:
+#     j = 0
+#     while j < 3:
+#         print(i + j)
+#         j = j + 1
+#     i = i + 1
+# print('Done!')
+
+# Print numbers up to 20 where number divisible by 5 print high five!
+
+# i = 0
+# while i <= 20:
+#     if i % 5 == 0:
+#         print("High Five!")
+#     else:
+#         print(i)
+#     i += 1
+
+# Homework: Print numbers upto 200. where numbers divisible by 3 print "Free" & Divisible by 7 print "Heaven"
+# if both then " Free Heaven" instead"
+
