@@ -44,3 +44,14 @@
 # Homework: Print numbers upto 200. where numbers divisible by 3 print "Free" & Divisible by 7 print "Heaven"
 # if both then " Free Heaven" instead"
 
+i = 0
+while i <= 200:
+    if i % 3 == 0:
+        print("Free")
+        if i % 7 == 0:
+            print("Heaven")
+    elif i % 3 or 7 == 0:
+        print("Free Heaven")
+    else:
+        print(i)
+    i = i + 1
