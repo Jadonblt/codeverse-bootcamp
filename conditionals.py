@@ -6,12 +6,27 @@
 
 # If a number is less than 10: print less than 10 and if its divisible by 3: print divisible by 3
 
-i = int(input("Enter the number:"))
-if i < 10:
-    print("Less than 10")
-    if i % 3 == 0:
-        print("Divisible by 3")
-else : 
-    print("Not less than 10")
-    if i % 3 == 0:
-        print("Divisible by 3")
+#i = int(input("Enter the number:"))
+#if i < 10:
+#    print("Less than 10")
+#    if i % 3 == 0:
+#        print("Divisible by 3")
+#else : 
+#    print("Not less than 10")
+#    if i % 3 == 0:
+#        print("Divisible by 3")
+
+# i = 0
+# while i <= 5:
+#     print(i)
+#     i = i + 1
+# print("Done!")
+
+i = 0
+while i < 3:
+    j = 0
+    while j < 3:
+        print(i + j)
+        j = j + 1
+    i = i + 1
+print('Done!')
