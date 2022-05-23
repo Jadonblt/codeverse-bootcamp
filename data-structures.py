@@ -13,10 +13,16 @@ person = {'name': {'firstname': 'Jadon', 'lastname': 'Bellot'} , 'address' : {'c
 
 
 # Lists, Maps, Sets
-student = ('Alex', 'John', 'Ali', 'Gareth')
-students = {'HongKong' : {'Alex'}, 'India' : {'John'}, 'UK' : {'Ali', 'Gareth'} }
+student = {'Alex', 'John', 'Ali', 'Gareth'}
+students = {'HongKong' : ['Alex'], 'India' : ['John'], 'UK' : ['Ali', 'Gabi'] }
+
+student.add("Gabi")
+print(student)
+student.remove("Gareth")
+print(student)
 
 # for x in student:
 #     print(x)
 
-print(type(students['UK']))
+# print(type(students['UK']))
+
