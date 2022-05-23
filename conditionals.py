@@ -41,17 +41,31 @@
 #         print(i)
 #     i += 1
 
-# Homework: Print numbers upto 200. where numbers divisible by 3 print "Free" & Divisible by 7 print "Heaven"
-# if both then " Free Heaven" instead"
+# Print numbers upto 200
+# if number is divisible by 3 print 'Free'
+# if number is divisible by 7 print 'Heaven'
+# if it is divisible by both then print 'Free heaven'
 
-i = 0
-while i <= 200:
-    if i % 3 == 0:
-        print("Free")
-        if i % 7 == 0:
-            print("Heaven")
-    elif i % 3 or 7 == 0:
+# i = 0
+# while i <= 200:
+#     if i % 3 == 0:
+#         print("Free")
+#         if i % 7 == 0:
+#             print("Heaven")
+#     elif i % 3 or 7 == 0:
+#         print("Free Heaven")
+#     else:
+#         print(i)
+#     i = i + 1
+
+i = 1
+while i <=200:
+    if i % 3 == 0 and i % 7 == 0:
         print("Free Heaven")
+    elif i % 3 == 0:
+        print("Free")
+    elif i % 7 == 0:
+        print("Heaven")
     else:
         print(i)
-    i = i + 1
+    i += 1
