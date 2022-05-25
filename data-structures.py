@@ -13,16 +13,16 @@
 
 
 # Lists, Maps, Sets
-student = {'Alex', 'John', 'Ali', 'Gabi'}
+student = ('Alex', 'John', 'Ali', 'Gabi')
 students = {'HongKong' : ['Alex'], 'India' : ['John'], 'UK' : ['Ali', 'Gabi'] }
 
-student.add("Simon")
-print(student)
-student.remove("Gabi")
-print(student)
+# student.add("Simon")
+# print(student)
+# student.remove("Gabi")
+# print(student)
 
-for x in student:
-    print(x)
+# for x in student:
+#     print(x)
 
-print(type(students['UK']))
+print(type(student))
 
